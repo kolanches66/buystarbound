@@ -1,0 +1,109 @@
+body {
+	background-color: #cbd4d4;
+	font-family: Arial;
+	margin: 0;
+}
+
+#container {
+	/*background: #000 url('img/back1.jpg') no-repeat;*/
+	background-size: auto;
+	width: 960px;
+	height: 960px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sidebar {
+	background: url('img/side2.png') repeat-y;
+	width: 315px;
+	float: right;
+	padding-top: 20px;
+	padding-left: 38px;
+	height: 940px;
+	overflow: hidden;
+}
+
+#menu {
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #cd6328;
+	font-size: 16px;
+}
+
+#menu a {
+	color: #cd6328;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #cd6328;
+	text-decoration: underline;
+}
+
+#buy {
+	margin: 0 auto;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	width: 192px;
+	line-height: 250%;
+}
+
+.oldCost {
+	font-size: 30px;
+	text-decoration: line-through;
+	
+	padding-left: 32px;
+}
+
+.newCost {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 48px;
+	
+	padding-left: 32px;
+}
+
+.buyButton {
+	padding-top: 16px;
+}
+
+#description {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	overflow:hidden;
+}
+
+#reviews{
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#reviews h3{
+	background: #fff9ea;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+#description h2 {
+	background: #fff9ea;
+	padding: 5px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+#description textarea, #description input.field {
+	border: 1px solid #c9c9c9;
+	width: 80%;
+}
+
+iframe {
+	margin-top: 16px;
+}
