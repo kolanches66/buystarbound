@@ -1,1 +1,2 @@
-# BuyStarbound — One Page Product Website
+# BuyStarbound
+The One Page Product Website
